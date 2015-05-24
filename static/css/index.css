@@ -1,43 +1,57 @@
 .banner{
 	margin-left:auto;
 	margin-right:auto;
-	width:50%;
 	margin-top:20px;
-	height:100px;
+	width:50%;
+	height:80px;
 	background-color:#eeadc2;
-	background-size: 635px 130px;
-	padding-top:15px;
+	padding-bottom:5px;
 	text-align:center;
-	font-family:bebas;
-	font-size:50px;
+	font-family:"Grand Hotel";
+	font-size:65px;
 }
 
+.banner2{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	width:50%;
+	height:80px;
+	background-color:#eeadc2;
+	padding-bottom:0px;
+	text-align:center;
+	font-family:"Grand Hotel";
+	font-size:50px;
 
+}
+ 
 table  {
-	width:1050px;
-	height:750px;
+	width:70%;
 	margin-left:auto;
 	margin-right:auto;
 	border-spacing:30px;
-
+	font-size:20px;
 }
 
-h1 {
-	padding-top:10px;
+#title {
 	text-align:center;
 	font-family:bebas;
 	font-size: 25px;
 }
 
-h3 {
-	color:#e583a3;
+#type {
+	font-family:Georgia;
+	font-style:italic;
 	text-align:center;
+	padding-top:-10px;
+	font-size:15px;
+	margin-bottom:15px;
 }
 
 td {
-	height:150px;
+	/*height:500px;*/
 	width:100px;
-	padding:10px;
+	padding:20px;
 	background-color:#E4E7EB;
 }
 
@@ -46,21 +60,29 @@ td {
 	margin-top:auto;
 	margin-left:auto;
 	margin-right:auto;
-	width: 400px;
-	height:275px;
-	padding-left:15px;
+	/*height:90%;*/
+	padding-top:5px;
+	padding-bottom:15px;
+	padding-left:7%;
+	padding-right:7%;
 	font-family:georgia;
 }
 
-a:link {
-	text-decoration: none;
-	color: #000000;
-	font-family: ;
+a {
+	color:#e583a3;
+	font-size:20px;
+	text-decoration:none;
+
+}
+
+a:hover{
+	text-decoration:underline;
 }
 
 a:visited {
-	color: #000000;
-	font-family: bebas;
+	color: #e583a3;
+	font-size:20px;
+	text-decoration:none;
 }
  
 
