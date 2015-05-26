@@ -1,5 +1,5 @@
 .banner{
-	margin-left:auto;
+	/*margin-left:auto;
 	margin-right:auto;
 	margin-top:20px;
 	width:50%;
@@ -8,7 +8,17 @@
 	padding-bottom:5px;
 	text-align:center;
 	font-family:"Grand Hotel";
-	font-size:65px;
+	font-size:65px;*/
+	margin-top:20px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:20px;
+	background:url(../images/banner2.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	text-align:center;
+	font-family:"Grand Hotel";
+	font-size:70px;
 }
 
 .banner2{
