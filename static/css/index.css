@@ -1,8 +1,11 @@
 @font-face{
-	font-family:bebas;
-	src: url(fonts/BEBAS___.ttf);
 	font-family: "Grand Hotel";
 	src: url(fonts/GrandHotel-Regular.otf);
+}
+
+@font-face{
+	font-family:bebas;
+	src: url(fonts/BEBAS.ttf);
 }
 
 .banner{
