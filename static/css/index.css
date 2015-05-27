@@ -9,16 +9,6 @@
 }
 
 .banner{
-	/*margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
-	width:50%;
-	height:80px;
-	background-color:#eeadc2;
-	padding-bottom:5px;
-	text-align:center;
-	font-family:"Grand Hotel";
-	font-size:65px;*/
 	margin-top:20px;
 	margin-bottom:10px;
 	padding-top:10px;
@@ -32,16 +22,16 @@
 }
 
 .banner2{
-	margin-left:auto;
-	margin-right:auto;
 	margin-top:20px;
-	width:50%;
-	height:80px;
-	background-color:#eeadc2;
-	padding-bottom:0px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:20px;
+	background:url(../images/banner2.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
 	text-align:center;
 	font-family:"Grand Hotel";
-	font-size:50px;
+	font-size:55px;
 
 }
 
