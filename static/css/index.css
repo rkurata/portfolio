@@ -47,7 +47,12 @@ table  {
 #title {
 	text-align:center;
 	font-family:bebas;
-	font-size: 25px;
+	font-size: 30px;
+}
+
+u{
+	font-family:bebas;
+	font-size:20px;
 }
 
 #type {
@@ -55,7 +60,7 @@ table  {
 	font-style:italic;
 	text-align:center;
 	padding-top:-10px;
-	font-size:15px;
+	font-size:20px;
 	margin-bottom:15px;
 }
 
@@ -64,6 +69,27 @@ td {
 	width:100px;
 	padding:20px;
 	background-color:#E4E7EB;
+}
+
+table.rank{
+	border-spacing:0px;
+	margin-top:-30px;
+	margin-bottom:-30px;
+}
+
+td.rank1{
+	width:80px;
+	height:200px;
+	background-color:#ffffff;
+	border-color:#000000;
+	padding:0px;
+}
+
+td.rank2{
+	width:400px;
+	height:200px;
+	background-color:#ffffff;
+	padding-left:0px;
 }
 
 #white {
@@ -87,7 +113,7 @@ a {
 }
 
 a:hover{
-	text-decoration:underline;
+	font-style:italic;
 }
 
 a:visited {
