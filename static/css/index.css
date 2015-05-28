@@ -73,24 +73,26 @@ td {
 
 table.rank{
 	border-spacing:0px;
-	margin-top:-30px;
-	margin-bottom:-30px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
+
 
 td.rank1{
 	width:80px;
-	height:200px;
+	height:40px;
 	background-color:#ffffff;
 	border-color:#000000;
 	padding:0px;
+
 }
 
 td.rank2{
 	width:400px;
-	height:200px;
+	height:40px;
 	background-color:#ffffff;
 	padding-left:0px;
-}
+}	
 
 #white {
 	background-color:#ffffff;
