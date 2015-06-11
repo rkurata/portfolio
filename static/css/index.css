@@ -8,6 +8,7 @@
 	src: url(fonts/BEBAS.ttf);
 }
 
+
 .banner{
 	margin-top:20px;
 	margin-bottom:10px;
@@ -45,9 +46,11 @@ table  {
 }
 
 #title {
+	font-style:uppercase;
 	text-align:center;
-	font-family:bebas;
+	font-family:"bebas";
 	font-size: 30px;
+
 }
 
 u{
@@ -125,3 +128,7 @@ a:visited {
 }
  
 
+hr{
+	border-color:#e583a3;
+	border-width:.5px;
+}
