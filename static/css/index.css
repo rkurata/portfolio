@@ -21,7 +21,7 @@ body{
 
 p {
 	font-family:"georgia";
-	font-size:30px;
+	font-size:20px;
 }
 
 
@@ -37,8 +37,6 @@ p {
 	margin-bottom:7%;
 
 }
-
-
 
 /*========above the fold==========*/
 
@@ -69,13 +67,16 @@ p {
 
 #about-subsection p{
 	font-family:"georgia";
-	font-size:25px;
+	font-size:20px;
 }
 
 #work p{
 	margin-bottom:10%;
 }
 
+#resume img{
+	width:90%;
+}
 
 /*=========project section==========*/
 
@@ -93,12 +94,12 @@ p {
 #project-list b{
 	font-family:"bebas";
 	color:#BCBCBC;
-	font-size:30px;
+	font-size:20px;
 }
 
 #project-list{
 	font-family:georgia;
-	font-size:30px;
+	font-size:20px;
 }
 
 #award{
@@ -184,6 +185,11 @@ font-family:"bebas";
 }
 
 /*=====pricepad link=====*/
+
+#links img{
+	width:75%;
+}
+
 #pp-storyboard-img{
 	width:100%;
 }
@@ -232,3 +238,16 @@ font-family:"bebas";
 #pp-vis4-img{
 	width:100%;
 }
+
+
+/*====responsive=======*/
+/*@media (max-width: 991px) {
+	#empower {
+		margin-top: 50px;
+	}
+	.kolibri-landing-detail div img {
+		height: 70px;
+		width: auto;
+	}
+}
+*/
