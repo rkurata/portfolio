@@ -1,6 +1,12 @@
+/*=========global variables==========*/
+
+/*color:#bfddd5; (seafoam)*/
+/*color:#BCBCBC; (grey)*/
+/*color:#e583a3; (pink)*/
+
 @font-face{
-	font-family: "Grand Hotel";
-	src: url(fonts/GrandHotel-Regular.otf);
+	font-family: "Lobster";
+	src: url(fonts/Lobster.otf);
 }
 
 @font-face{
@@ -8,128 +14,221 @@
 	src: url(fonts/BEBAS.ttf);
 }
 
+body{
+	margin-left:8%;
+	margin-right:8%;
+}
+
+p {
+	font-family:"georgia";
+	font-size:30px;
+}
+
+
+.section-divider p{
+	background:url(../images/section-banner.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family:"Lobster";
+	color:#ffffff;
+	font-size:70px;
+	margin-top:3%;
+	text-align:center;
+	margin-bottom:7%;
+
+}
+
+
+
+/*========above the fold==========*/
+
+.container{
+	margin-bottom:6%;
+}
 
 .banner{
-	margin-top:20px;
-	margin-bottom:10px;
-	padding-top:10px;
-	padding-bottom:20px;
-	background:url(../images/banner2.jpg);
+	padding-top:35%;
+	background:url(../images/banner-2.png);
 	background-repeat:no-repeat;
 	background-position:center;
-	text-align:center;
-	font-family:"Grand Hotel";
-	font-size:70px;
 }
 
-.banner2{
-	margin-top:20px;
-	margin-bottom:10px;
-	padding-top:10px;
-	padding-bottom:20px;
-	background:url(../images/banner2.jpg);
-	background-repeat:no-repeat;
-	background-position:center;
-	text-align:center;
-	font-family:"Grand Hotel";
-	font-size:55px;
-
+#title-links{
+	margin-bottom:20%;
 }
+
+/*=========about section==========*/
+
 
  
-table  {
-	width:70%;
-	margin-left:auto;
-	margin-right:auto;
-	border-spacing:30px;
-	font-size:20px;
-}
-
-#title {
-	font-style:uppercase;
-	text-align:center;
+#about-subsection h1{
 	font-family:"bebas";
-	font-size: 30px;
+	font-size:55px;
+	color:#BCBCBC;
+}
+
+#about-subsection p{
+	font-family:"georgia";
+	font-size:25px;
+}
+
+#work p{
+	margin-bottom:10%;
+}
+
+
+/*=========project section==========*/
+
+#projects{
+	margin-top:-5px;
+}
+
+#project-list h1{
+	font-family:"bebas";
 	color:#e583a3;
-
+	font-size:55px;
+	margin-bottom:7%;
 }
 
-u{
-	font-family:bebas;
-	font-size:20px;
+#project-list b{
+	font-family:"bebas";
+	color:#BCBCBC;
+	font-size:30px;
 }
 
-#type {
-	font-family:Georgia;
-	font-style:italic;
-	text-align:center;
-	padding-top:-10px;
-	font-size:20px;
-	margin-bottom:15px;
-}
-
-td {
-	/*height:500px;*/
-	width:100px;
-	padding:20px;
-	background-color:#E4E7EB;
-}
-
-table.rank{
-	border-spacing:0px;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-
-
-td.rank1{
-	width:80px;
-	height:40px;
-	background-color:#ffffff;
-	border-color:#000000;
-	padding:0px;
-
-}
-
-td.rank2{
-	width:400px;
-	height:40px;
-	background-color:#ffffff;
-	padding-left:0px;
-}	
-
-#white {
-	background-color:#ffffff;
-	margin-top:auto;
-	margin-left:auto;
-	margin-right:auto;
-	/*height:90%;*/
-	padding-top:5px;
-	padding-bottom:15px;
-	padding-left:7%;
-	padding-right:7%;
+#project-list{
 	font-family:georgia;
+	font-size:30px;
 }
 
-a {
+#award{
+	margin-top:5%;
+}
+
+#links{
+	margin-top:8%;
+}
+
+/*=====pricepad=====*/
+
+#buddysystem-img{
+	width:300px;
+	margin-top:20%;
+}
+
+#pricepad-img{
+	width:600px;
+	margin-top:15%;
+}
+
+#howl-img{
+	width:300px;
+
+}
+
+
+/*========links==========*/
+
+.links-section p{
+	background:url(../images/section-banner.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family:"Lobster";
+	/*color:#bfddd5; (seafoam)*/
+	color:#ffffff;
+	font-size:55px;
+	margin-top:3%;
+	text-align:center;
+	padding-top:3%;
+	padding-bottom:3%;
+
+}
+
+/*==========bs link=======*/
+#buddysystem .row{
+	margin-bottom:10%;
+}
+
+#buddysystem h1{
+font-family:"bebas";
 	color:#e583a3;
-	font-size:20px;
-	text-decoration:none;
-
+	font-size:55px;
+	margin-bottom:7%;
 }
 
-a:hover{
+#bs-storyboard-img{
+	width:100%;
+	margin-top:25%;
+}
+
+#bs-paper-img{
+	width:100%;
+	margin-top:25%;
+}
+
+
+#bs-testing-img{
+	width:100%;
+	margin-top:25%;
+}
+
+#bs-abtest1-img{
+	width:55%;
+	margin-top:25%;
+	
+}
+
+#bs-abtest2-img{
+	width:55%;
+	margin-top:5%;
+}
+
+/*=====pricepad link=====*/
+#pp-storyboard-img{
+	width:100%;
+}
+
+#pp-storyboard{
+	margin-top:10%;
+}
+
+
+#pp-wireframe-img{
+	width:100%;
+}
+
+#evolution h2{
+	color:#e583a3;
+	font-family:"Georgia";
 	font-style:italic;
+	font-size:35px;
+	margin-bottom:5%;
 }
 
-a:visited {
-	color: #e583a3;
-	font-size:20px;
-	text-decoration:none;
+#pp-version1-img{
+	width:200%
 }
- 
 
-hr{
-	border-color:#e583a3;
-	border-width:.5px;
+#pp-version2-img{
+	width:100%;
+}
+
+#pp-version3-img{
+	width:100%;
+}
+
+#pp-vis1-img{
+	width:100%;
+}
+
+#pp-vis2-img{
+	width:100%;
+}
+
+#pp-vis3-img{
+	width:100%;
+}
+
+#pp-vis4-img{
+	width:100%;
 }

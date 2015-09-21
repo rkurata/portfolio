@@ -4,106 +4,200 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+
+<!--========above the fold========-->
+
 	<div class="banner">
-		Rachel Kurata
+		<div class="container" id="title-links">
+		 	<div class="row">
+				<div class="col-md-6">
+					<center><a href="#"><img src="images/aboutme.png"></a></center>
+				</div>
+
+				<div class="col-md-6">
+					<center><a href="#"><img src="images/myprojects.png"></a></center>
+				</div>
+	 		</div>
+	 	</div>
 	 </div>
 
-	<table>
-		<tr>
-			<td id="m1"> 
-				
-				<div id="white" >
-					<p>
-						<div id="title">UX DESIGN</div>
-						<div id="type">Mobile App</div>
-						<u>About</u>: Buddy System is a web-based mobile app designed to meet students' needs by taking the scheduling hassle and intimidation factor out of talking to professors. Students can use Buddy System to form group appointments with their peers and professors, based on similar questions or topics that they would like to discuss.This creates a more relaxed conversational environment, allowing students to establish relationships with their professors, which can serve as valuable resources for students' future endeavours.
-					 		<br><br>
+<!--========about me========-->
 
-						<u>Tools</u>: Needfinding interviews, storyboards, paper protyping, Nielsen's 10 usability heuristics,  user testing, online testing, NodeJS, HTML, CSS<br>
+	 <div class="container" id="about">
+	 	<div class="row">
+		 	<div class="section-divider">
+		 		<p>About Me</p>
+		 	</div>
+			<div class="col-md-12">
+				<p>Rachel is a UCSD student studying Human Computer Interaction. She believes that design is more than aesthics; it changes constantly to fit different users and contexts. She loves that being a designer enables her to change the way people interact with and experience things. She loves rowing, Seattle, rain, and baking.</p>
+			</div>
+		</div>
+	</div>
 
-							<table class="rank">
-					 		<tr>
-					 			<td class="rank1"><center><img src ="images/medal.jpg"  style=" width:45px; height:60px" ></img></center></td>
+	 <div class="container" id="about-subsection">
+	 	<div class="row">
+			<div class="col-md-4">
+				<h1>Education</h1>
+				<br><p>Cognitive Science, Specialization in HCI, B.S <br>
+				<br>Business Minor <br>
+				<br>UC San Diego | Graduation Date: June 2016 </p>
+			</div>
 
-					 			<td class="rank2"><div id="rank"> <i>This project was ranked Top in Studio and was evaluated by Scott Klemmer and Don Norman</i></td>
-					 	</table>
-						<center>
-						<a href="links/process.html">Design Process</a> |
+			<div class="col-md-5" id="work">
+				<h1>Work</h1>
+				<br><p>User Experience Intern | Foundation for Learning Equality
+				<br><br>User Centered Designer| b.One Design</p>
 
-						<a href="http://buddysystem.herokuapp.com/" target="_blank">Buddy System</a>
-						</center>
+				<div class="row">
+					<!--<div class="col-md-6" id="email">
+						<p><i>Email: </i>rkurata@ucsd.edu</p>
+					</div>-->
 
-					</p>
+					<div class="col-md-6" id="resume">
+						<a  href="https://drive.google.com/file/d/0B4L6ZpAvlp6aMkpfaDRNVWVPSGc/view?usp=sharing" target="_blank"><img src="images/resume.png"></a>
+					</div>
 
 				</div>
-			</td>
-		</tr>
 
-		<tr>
-			<td id="m4">
-				<div id="white">
-					<p>
-						<div id="title">Data Visualization</div>
-						<div id="type">Website</div>
+			</div>
 
-						<u>About</u>: An interactive data visualization tool, designed for homebuyers and home investors, that incorporates UX design principles. Using Zillow housing data, we created useful visualizations that convey historical trends of profitability for different areas in San Diego.<br><br>
-						<u>Tools</u>: Wireframing & Prototyping tools (Axure, Balsamiq), D3JS, Google Maps API, Zillow housing data from Delphi<br><br>
-						
-						<center>
-							<a href="links/process-vis.html">Design Process</a> | 
-							<a href="http://chentoocoolupdates.herokuapp.com/">Development Process</a> | 
-							<a href="http://chentoocool.herokuapp.com/">pricePad</a>
-						</center>
-					</p>
-				</div></a>
-			</td>
-			
-		</tr>
+			<div class="col-md-3">
+				<h1>contact</h1>
+				<br><p>rkurata@ucsd.edu</p>
+				
+			</div>
 
-		<tr>
-			<td id="m3">
-				<div id="white">
-					<p>
-						<div id="title">Social Media API</div>
-						<div id="type">Website</div>
+		</div>
+	 </div>
 
-						<u>About</u>:  A website using the Instagram API to visualize data in order to provide insight to your social media habits.<br><br>
-						<u>Tools</u>: Instagram API, D3JS, C3JS, NodeJS, HTML, CSS<br><br>
-						
-						<center>
-							<a href="http://rbk-a2.herokuapp.com/">Cogs 121 API Project</a>
-						</center>
-					</p>
-				</div></a>
-			</td>
-		</tr>
+<!--========projects========-->
 
-		
+	<div class="container" id="project-list">
+		<div class="row">
+			<div class="section-divider">
+				<p>Projects</p>
+			</div>
+		</div>
 
-		<tr>
-			<td id="m2"> 
-				<div id="white">
-					<p>
-						<div id="title">HTML/CSS</div>
-						<div id="type">Website</div>
+		<div class="row">
+			<div class="col-md-4">
+				<img src="images/buddysystem.png" id="buddysystem-img">
+			</div>
 
-						<u>About</u>: A website to showcase projects created and skills gained throughout the course of the class (Cogs 3: Intro to Computing)<br><br>
-						<u>Tools</u>:  HTML, CSS, Javascript, Photoshop, Illustrator <br><br><br>
-
-						<center>
-							<a href="http://cogs3final.herokuapp.com/" target="_blank">Cogs 3 Final Project</a>
-						</center>
-					</p>
-				</div></a>
-			</td>
+			<div class="col-md-8">
+				
+				<h1>Buddy System</h1>
+	
+				<b>Role:</b> UX Designer<br>
+				<b>Type:</b> Mobile Application<br>
+				<b>Tools Used:</b> HTML, CSS, NodeJS<br>
+				<b>Methods:</b> Needfinding, Storyboarding, Paper Prototyping, User Testing, A/B Testing
 
 			
-		</tr>
-	</table>
+				<div class="container" id="award">
+					<div class="row">
+						<div class="col-md-1">
+							<center>
+								<img src ="images/medal.jpg"  style=" width:50px; height:70px" id="medal-img"></img>
+							</center>
+						</div>
+						<div class="col-md-6">
+								<p>This project was ranked Top in Studio, evaluated by Scott Klemmer &amp; Don Norman</p>
+						</div>
+					</div>
+				</div>
 
+				<div class="container" id="links">
+					<div class="row">
+						<div class="col-md-4">
+							<a href="links/bs-process.html" target="_blank"><img src="images/process.png"></a>
+						</div>
+				
+						<div class="col-md-4">
+							<a href="http://mobiletest.me/htc_one_emulator/?u=http://buddysystem.herokuapp.com/viewaltschedule" target="_blank"><img src="images/bs.png"></a>
+						</div>
+					</div>
+				</div>
+
+				</div>
+
+				</div>
+			</div>			
+		</div>	
+	</div>
+
+	<div class="container" id="project-list">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>pricePad</h1>
+				<b>Role:</b> UX/UI Designer<br>
+				<b>Type: </b>Website<br>
+				<b>Tools Used: </b>Balsamiq, Axure, HTML, CSS, Javascript, D3JS, Google Maps API, Zillow housing data from Delphi<br>
+				<b>Methods:</b> Storyboarding, Low/High Fidelity Wireframes
+
+					<div class="container" id="links">
+						<div class="row">
+							<div class="col-md-4">
+								<a href="links/pp-process.html" target="_blank"><img src="images/process.png"></a>
+
+							</div>
+
+							<div class="col-md-4">
+								<a href="http://chentoocool.herokuapp.com" target="_blank"><img src="images/pp.png"></a> 
+							</div>
+						</div>
+					</div>
+
+			</div>
+
+			<div class="col-md-6">
+				<img src="images/pricepad.png" id="pricepad-img">
+			</div>
+
+		</div>
+	</div>
+
+	<div class="container" id="project-list">
+		<div class="row">
+			<div class="col-md-4">
+				<img src="images/howl-2.png" id="howl-img">
+			</div>
+
+			<div class="col-md-8">
+				
+				<h1>Howl</h1>
+	
+				<b>Role:</b> UX Designer<br>
+				<b>Type:</b> Mobile Application<br>
+				<b>Tools Used:</b> Photoshop, JustInMind Prototyper, HTML, CSS, Javascript, Bootstrap<br>
+				<b>Methods:</b> Needfinding, Storyboarding, Wireframes
+
+
+				<div class="container" id="links">
+					<div class="row">
+						<div class="col-md-4">
+							<a href="links/h-process.html" target="_blank"><img src="images/about.png"></a>
+						</div>
+				
+						<div class="col-md-4">
+							<a href="http://Howl-cogs187A.herokuapp.com/" target="_blank"><img src="images/howl.png"></a>
+						</div>
+					</div>
+				</div>
+
+				</div>
+
+				</div>
+			</div>			
+		</div>	
+	</div>
+
+
+
+<script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
