@@ -15,11 +15,11 @@
 		<div class="container" id="title-links">
 		 	<div class="row">
 				<div class="col-md-6">
-					<center><a href="#"><img src="images/aboutme.png"></a></center>
+					<center><a href="#about" id="about-button" class="smoothscroll "><img src="images/aboutme.png"></a></center>
 				</div>
 
 				<div class="col-md-6">
-					<center><a href="#"><img src="images/myprojects.png"></a></center>
+					<center><a href="#project-list" id="project-button" class="smoothscroll "><img src="images/myprojects.png"></a></center>
 				</div>
 	 		</div>
 	 	</div>
@@ -199,5 +199,26 @@
 
 
 <script src="../js/bootstrap.min.js"></script>
+<script>
+	/* Smooth scroll to about section after clicking 'about' button */
+	$('#about-button').click(function() {
+		var $root = $('html, body');
+		$root.animate({
+			scrollTop: $($.attr(this, 'href')).offset().top
+		}, 500);
+		return false;
+	});
+</script>
+
+<script>
+	/* Smooth scroll to about section after clicking 'my projects' button */
+	$('#project-button').click(function() {
+		var $root = $('html, body');
+		$root.animate({
+			scrollTop: $($.attr(this, 'href')).offset().top
+		}, 500);
+		return false;
+	});
+</script>
 </body>
 </html>
