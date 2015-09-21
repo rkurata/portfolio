@@ -110,21 +110,9 @@ p {
 	margin-top:8%;
 }
 
-/*=====pricepad=====*/
 
-#buddysystem-img{
-	width:300px;
-	margin-top:20%;
-}
-
-#pricepad-img{
-	width:600px;
-	margin-top:15%;
-}
-
-#howl-img{
-	width:300px;
-
+#project-list-img{
+	width:90%;
 }
 
 
@@ -241,13 +229,98 @@ font-family:"bebas";
 
 
 /*====responsive=======*/
-/*@media (max-width: 991px) {
-	#empower {
-		margin-top: 50px;
+@media (max-width: 990px) {
+	.banner {
+		background-size: 70%;
 	}
-	.kolibri-landing-detail div img {
-		height: 70px;
-		width: auto;
+	
+	#title-links{
+		margin-top:5%;
+	}
+
+	#title-links img{
+		width:30%;
+	}
+
+	.section-divider p{
+		background-size:70%;
+		font-size:50px;
+	}
+
+	#about-subsection h1{
+		font-size:40px;
+	}
+
+	#resume img{
+		width:40%;
+	}
+
+	#project-list h1{
+		font-size:40px;
+	}
+
+	#links img{
+		width:30%;
+	}
+	#project-list-img{
+		width:40%;
 	}
 }
-*/
+
+@media (max-width: 890px) {
+	#title-links img{
+		width:25%;
+	}
+	#resume img{
+		width:35%;
+	}
+}
+
+@media (max-width: 790px) {
+	#title-links img{
+		width:20%;
+	}
+}
+
+@media (max-width: 660px) {
+	.section-divider p{
+		font-size:40px;
+	}
+	#about-subsection h1{
+		font-size:30px;
+	}
+	#project-list h1{
+		font-size:30px;
+	}
+}
+
+@media (max-width: 550px) {
+	.section-divider p{
+		font-size:30px;
+	}
+	#about-subsection h1{
+		font-size:25px;
+	}
+	#project-list h1{
+		font-size:25px;
+	}
+}
+
+@media (max-width: 500px) {
+	#title-links{
+		margin-top:20%;
+	}
+	#title-links img{
+		width:30%;
+	}
+	#links img{
+		width:35%;
+	}
+	
+}
+
+@media (max-width: 400px) {
+	.section-divider p{
+		font-size:25px;
+	}
+}
