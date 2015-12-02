@@ -45,12 +45,10 @@ p {
 	margin-top:4%;
 }
 
-.name{
-	font-family:Lobster;
-	color:#BCBCBC;
+#name{
 	float: left;
-	margin-left:8%;
 }
+
 
 ul{
 	list-style:none;
