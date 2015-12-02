@@ -3,6 +3,7 @@
 /*color:#bfddd5; (seafoam)*/
 /*color:#BCBCBC; (grey)*/
 /*color:#e583a3; (pink)*/
+/*color:#DBDBDB; (really light grey)*/
 
 @font-face{
 	font-family: "Lobster";
@@ -16,22 +17,21 @@
 
 body{
 	margin-left:8%;
-	margin-right:8%;
 }
 
 p {
 	font-family:"georgia";
-	font-size:20px;
+	font-size:18px;
 }
 
 
 .section-divider p{
-	background:url(../images/section-banner.png);
+	/*background:url(../images/section-banner.png);*/
 	background-repeat:no-repeat;
 	background-position:center;
 	font-family:"Lobster";
-	color:#ffffff;
-	font-size:70px;
+	color:#seafoam;
+	font-size:50px;
 	margin-top:3%;
 	text-align:center;
 	margin-bottom:7%;
@@ -40,28 +40,56 @@ p {
 
 /*========above the fold==========*/
 
-.container{
-	margin-bottom:6%;
+#header{
+	margin-bottom:6px;
+	margin-top:4%;
 }
 
-.banner{
-	padding-top:35%;
-	background:url(../images/banner-2.png);
-	background-repeat:no-repeat;
-	background-position:center;
+.name{
+	font-family:Lobster;
+	color:#BCBCBC;
+	float: left;
+	margin-left:8%;
 }
 
-#title-links{
-	margin-bottom:20%;
+ul{
+	list-style:none;
+	list-style-image:none;
+}
+
+li {
+	text-align:center;
+	margin-right:5px;
+	display:block;
+	float:right;
+   width:120px;
+   font-family:bebas;
+   color:#e583a3;
+   font-size:25px;
+}
+
+li a:visited{
+	color:#BCBCBC;
+}
+
+li a:link{
+	color:#BCBCBC;
+}
+
+li a.current{
+	color:#e583a3 ;
+}
+
+li a:hover{
+	color:#e583a3 ;
+	text-decoration:none;
 }
 
 /*=========about section==========*/
 
-
- 
 #about-subsection h1{
 	font-family:"bebas";
-	font-size:55px;
+	font-size:25px;
 	color:#BCBCBC;
 }
 
@@ -74,57 +102,46 @@ p {
 	margin-bottom:10%;
 }
 
-#resume img{
-	width:90%;
+#about a:link{
+	font-family:bebas;
+   color:#e583a3;
+   font-size:20px;
 }
 
+#about a:visited{
+	color:#e583a3;
+}
+
+#about a:hover{
+	color:#e583a3 ;
+	text-decoration:none;
+}
+
+#about-img{
+	margin-bottom:10px;
+}
 /*=========project section==========*/
 
-#projects{
-	margin-top:-5px;
-}
-
-#project-list h1{
-	font-family:"bebas";
-	color:#e583a3;
-	font-size:55px;
-	margin-bottom:7%;
-}
-
-#project-list b{
-	font-family:"bebas";
-	color:#BCBCBC;
-	font-size:20px;
+.project-list{
+	margin-top:5%;
 }
 
 #project-list{
 	font-family:georgia;
 	font-size:20px;
+	text-align:center;
 }
 
-#award{
-	margin-top:5%;
-}
-
-#links{
-	margin-top:8%;
-}
-
-
-#project-list-img{
-	width:90%;
-}
 
 
 /*========links==========*/
 
 .links-section p{
-	background:url(../images/section-banner.png);
+	/*background:url(../images/section-banner.png);*/
 	background-repeat:no-repeat;
 	background-position:center;
 	font-family:"Lobster";
-	/*color:#bfddd5; (seafoam)*/
-	color:#ffffff;
+	color:#bfddd5;
 	font-size:55px;
 	margin-top:3%;
 	text-align:center;
@@ -133,100 +150,43 @@ p {
 
 }
 
-/*==========bs link=======*/
-#buddysystem .row{
-	margin-bottom:10%;
+/*==========process=======*/
+
+#process p{
+	margin-bottom:25px;
 }
 
-#buddysystem h1{
-font-family:"bebas";
+#images img{
+	width:100%;
+	margin-bottom:10px;
+	background-color:#DBDBDB;
+	padding:2%;
+}
+
+#images p{
+	text-align:center;
+	font-family:"georgia";
+	font-size:18px;
+	margin-bottom:20px;
+}
+
+#process h1{
+	font-family:bebas;
+	font-size:20px;
+}
+
+#process a:link{
+   color:#e583a3;
+}
+
+#process a:visited{
 	color:#e583a3;
-	font-size:55px;
-	margin-bottom:7%;
 }
 
-#bs-storyboard-img{
-	width:100%;
-	margin-top:25%;
+#process a:hover{
+	color:#e583a3 ;
+	text-decoration:none;
 }
-
-#bs-paper-img{
-	width:100%;
-	margin-top:25%;
-}
-
-
-#bs-testing-img{
-	width:100%;
-	margin-top:25%;
-}
-
-#bs-abtest1-img{
-	width:55%;
-	margin-top:25%;
-	
-}
-
-#bs-abtest2-img{
-	width:55%;
-	margin-top:5%;
-}
-
-/*=====pricepad link=====*/
-
-#links img{
-	width:75%;
-}
-
-#pp-storyboard-img{
-	width:100%;
-}
-
-#pp-storyboard{
-	margin-top:10%;
-}
-
-
-#pp-wireframe-img{
-	width:100%;
-}
-
-#evolution h2{
-	color:#e583a3;
-	font-family:"Georgia";
-	font-style:italic;
-	font-size:35px;
-	margin-bottom:5%;
-}
-
-#pp-version1-img{
-	width:200%
-}
-
-#pp-version2-img{
-	width:100%;
-}
-
-#pp-version3-img{
-	width:100%;
-}
-
-#pp-vis1-img{
-	width:100%;
-}
-
-#pp-vis2-img{
-	width:100%;
-}
-
-#pp-vis3-img{
-	width:100%;
-}
-
-#pp-vis4-img{
-	width:100%;
-}
-
 
 /*====responsive=======*/
 @media (max-width: 990px) {

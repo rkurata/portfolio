@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>About</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="container" id="about">
+		 	<div class="row">
+			 	<div class="section-divider">
+			 		<p>About Me</p>
+			 	</div>
+				<div class="col-md-12">
+					<p>Rachel is a UCSD student studying Human Computer Interaction. She believes that design is more than aesthics; it changes constantly to fit different users and contexts. She loves that being a designer enables her to change the way people interact with and experience things. She loves rowing, Seattle, rain, and baking.</p>
+				</div>
+			</div>
+		</div>
+
+		 <div class="container" id="about-subsection">
+		 	<div class="row">
+				<div class="col-md-4">
+					<h1>Education</h1>
+					<br><p>Cognitive Science, Specialization in HCI, B.S <br>
+					<br>Business Minor <br>
+					<br>UC San Diego | Graduation Date: June 2016 </p>
+				</div>
+
+				<div class="col-md-5" id="work">
+					<h1>Work</h1>
+					<br><p>User Experience Intern | Foundation for Learning Equality
+					<br><br>User Centered Designer| b.One Design</p>
+
+					<div class="row">
+
+						<div class="col-md-6" id="resume">
+							<a  href="https://drive.google.com/file/d/0B4L6ZpAvlp6aRjFyUW11dGtXaEE/view?usp=sharing" target="_blank"><img src="images/resume.png"></a>
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-3">
+					<h1>contact</h1>
+					<br><p>rkurata@ucsd.edu</p>
+					
+				</div>
+
+			</div>
+		 </div>
+	</body>
+	</head>
+</html>
