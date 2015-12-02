@@ -3,7 +3,7 @@
 /*color:#bfddd5; (seafoam)*/
 /*color:#BCBCBC; (grey)*/
 /*color:#e583a3; (pink)*/
-/*color:#DBDBDB; (really light grey)*/
+/*color:#F2F2F2; (really light grey)*/
 
 @font-face{
 	font-family: "Lobster";
@@ -159,7 +159,7 @@ li a:hover{
 #images img{
 	width:100%;
 	margin-bottom:10px;
-	background-color:#DBDBDB;
+	background-color:#F2F2F2;
 	padding:2%;
 }
 
