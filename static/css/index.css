@@ -85,7 +85,7 @@ li a:hover{
 	text-decoration:none;
 }
 
-/*=========about section==========*/
+/*=========about page==========*/
 
 #about-subsection h1{
 	font-family:"bebas";
@@ -160,7 +160,7 @@ li a:hover{
 	width:100%;
 	margin-bottom:10px;
 	background-color:#F2F2F2;
-	padding:2%;
+	padding:5px;
 }
 
 #images p{
