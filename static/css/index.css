@@ -130,6 +130,13 @@ li a:hover{
 	text-align:center;
 }
 
+#project-list img{
+	border:1px solid #F2F2F2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;  
+}
+
 
 
 /*========links==========*/
