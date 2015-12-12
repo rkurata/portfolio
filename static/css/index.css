@@ -155,6 +155,27 @@ li a:hover{
 
 }
 
+.link-button{
+	background-color:#e583a3;
+	color:#ffffff;
+	border-radius:3px;
+	border-color:#e583a3;
+	border-width:1px;
+	padding:6px;
+	font-family:georgia;
+	font-size:18px;
+}
+
+.link-button:hover{
+	background-color:#ffffff;
+	color:#e583a3;
+	border-radius:4px;
+	border-color:#e583a3;
+	border-width:1px;
+	padding:6px;
+	font-family:georgia;
+	font-size:18px;
+}
 /*==========process=======*/
 
 #process p{
@@ -164,8 +185,10 @@ li a:hover{
 #images img{
 	width:100%;
 	margin-bottom:10px;
-	background-color:#F2F2F2;
-	padding:5px;
+	border:1px solid #F2F2F2;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
 }
 
 #images p{
@@ -177,7 +200,7 @@ li a:hover{
 
 #process h1{
 	font-family:bebas;
-	font-size:20px;
+	font-size:22px;
 }
 
 #process a:link{
