@@ -156,24 +156,24 @@ li a:hover{
 }
 
 .link-button{
-	background-color:#e583a3;
-	color:#ffffff;
+	background-color:#ffffff;
+	color:#e583a3;
 	border-radius:3px;
 	border-color:#e583a3;
-	border-width:1px;
-	padding:6px;
-	font-family:georgia;
+	border-width:2px;
+	padding:10px;
+	font-family:'bebas';
 	font-size:18px;
 }
 
 .link-button:hover{
-	background-color:#ffffff;
-	color:#e583a3;
+	background-color:#e583a3;
+	color:#ffffff;
 	border-radius:4px;
 	border-color:#e583a3;
-	border-width:1px;
-	padding:6px;
-	font-family:georgia;
+	border-width:2px;
+	padding:10px;
+	font-family:'bebas';
 	font-size:18px;
 }
 /*==========process=======*/
