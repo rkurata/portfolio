@@ -22,7 +22,6 @@ app.get('/', function(req,res) {
 	res.render('index');
 });
 
-
 app.get('/about', function(req,res) {
 	res.render('about');
 });
@@ -38,6 +37,10 @@ app.get('/projects/pricepad', function(req,res) {
 app.get('/projects/howl', function(req,res) {
 	res.render('howl');
 });
+
+/*app.get('/about/resume', function(req,res) {
+	res.render('RachelKurata');
+});*/
 
 // Example route
 // app.get('/users', user.list);
