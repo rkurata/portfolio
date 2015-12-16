@@ -38,9 +38,21 @@ app.get('/projects/howl', function(req,res) {
 	res.render('howl');
 });
 
+app.get('/projects/kolibri', function(req,res) {
+	res.render('kolibri');
+});
+
 /*app.get('/about/resume', function(req,res) {
 	res.render('RachelKurata');
 });*/
+
+app.get('/about/resume', function(req, res){
+  var tempFile="/views/rachelkurata.pdf";
+  fs.readFile(tempFile, function (err,data){
+     response.contentType("application/pdf");
+     response.send(data);
+  });
+});
 
 // Example route
 // app.get('/users', user.list);

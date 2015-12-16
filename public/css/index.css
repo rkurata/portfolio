@@ -120,9 +120,6 @@ li a:hover{
 }
 /*=========project section==========*/
 
-.project-list{
-	margin-top:5%;
-}
 
 #project-list{
 	font-family:georgia;
@@ -137,7 +134,9 @@ li a:hover{
 	border-radius: 5px;  
 }
 
-
+#project-list p{
+	margin-bottom:35px;
+}
 
 /*========links==========*/
 
@@ -179,12 +178,12 @@ li a:hover{
 /*==========process=======*/
 
 #process p{
-	margin-bottom:25px;
+	margin-bottom:5%;
 }
 
 #images img{
 	width:100%;
-	margin-bottom:10px;
+	margin-bottom:5px;
 	border:1px solid #F2F2F2;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -194,8 +193,8 @@ li a:hover{
 #images p{
 	text-align:center;
 	font-family:"georgia";
-	font-size:18px;
-	margin-bottom:20px;
+	font-size:14px;
+	margin-bottom:35px;
 }
 
 #process h1{
